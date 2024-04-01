@@ -28,8 +28,8 @@ const page = ({ params }: Props) => {
   const sizes = ['SM', 'MED', 'LRG', 'XL']
 
   return (
-    <div className="m-auto max-w-[1080px] flex flex-col px-24">
-      <div className="mt-16 p-8 grid grid-cols-2 gap-8 justify-center">
+    <div className="m-auto max-w-[1080px] flex flex-col px-2 lg:px-24">
+      <div className="mt-16 p-8 flex flex-col lg:grid lg:grid-cols-2 gap-4 lg:gap-8 justify-center">
         <div>
           <Image 
             src={`/images${item.image}`}
