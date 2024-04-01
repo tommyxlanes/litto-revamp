@@ -67,10 +67,12 @@ const MobileNav = () => {
                                         items-center">
                                             <FaUser />
                                             <span>My Account</span></li>
+                                    <Link href='/'>
                                     <li className="tracking-wide hover:text-gray-500
                                         transition items-center">
                                         Home
                                     </li>
+                                    </Link>
                                     {links.map((link, i) => (
                                         <Link href={`/${link.name}`}>
                                             <li key={i} className="tracking-wide hover:text-gray-500
