@@ -58,8 +58,8 @@ const Modal = () => {
                     Yes, I am over 21
                   </button>
                   <Link href='https://www.google.com/' className="bg-red-600 hover:bg-red-500 py-2 px-4 font-semibold 
-                  w-full rounded-md text-white  transition duration-200">
-                    Yes, I am over 21
+                  w-full rounded-md text-white text-center transition duration-200">
+                    No, I am underage
                   </Link>
                 </div>
   
