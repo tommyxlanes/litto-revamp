@@ -45,21 +45,27 @@ const page = ({ params }: Props) => {
                 <div className='font-semibold text-gray-800 flex gap-2 items-center'>
                 <PiPlant className='text-gray-800 text-4xl' /> Strain 
                 </div>
-                <p className='text-gray-500'>{item.strain}</p>
+                <p className='text-gray-500'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur dolore eos, reiciendis a neque eius, quaerat aut, ipsa libero sed nesciunt repellat architecto. Impedit ipsa ab reiciendis itaque modi.
+                </p>
               </div>
 
               <div>
                 <div className='font-semibold text-gray-800 flex gap-2 items-center'>
                 <FaEyeDropper className='text-gray-800 text-4xl' /> Mood 
                 </div>
-                <p className='text-gray-500'>{item.mood}</p>
+                <p className='text-gray-500'>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id voluptate enim quam maiores, tempore ipsum natus, laboriosam architecto incidunt omnis ab dolores excepturi deserunt officia consequuntur pariatur nesciunt soluta? Repellat!
+                </p>
               </div>
 
               <div>
                 <div className='font-semibold text-gray-800 flex gap-2 items-center'>
                 <PiMaskHappyLight className='text-gray-800 text-4xl' /> Flavors 
                 </div>
-                <p className='text-gray-500'>{item.flavors}</p>
+                <p className='text-gray-500'>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam ipsa harum veritatis facere culpa suscipit ut, ea error dolores illo beatae, ipsum enim hic necessitatibus ullam libero. Molestias, iusto.
+                </p>
               </div>
               
             </div>
