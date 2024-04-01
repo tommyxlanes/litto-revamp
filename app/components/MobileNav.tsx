@@ -66,10 +66,10 @@ const MobileNav = () => {
                                         border-b-[1px] border-gray-300 py-4 flex gap-2
                                         items-center">
                                             <FaUser />
-                                            <span>My Account</span></li>
+                                            <span className="uppercase">My Account</span></li>
                                     <Link href='/'>
                                     <li className="tracking-wide hover:text-gray-500
-                                        transition items-center">
+                                        transition items-center uppercase">
                                         Home
                                     </li>
                                     </Link>

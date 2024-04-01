@@ -59,7 +59,7 @@ export const links = [
         },
         {
           name: 'Shmac',
-          slug: 'slug',
+          slug: 'Shmac',
           type: 'cannabis',
           image: '/Shmac.webp',
           strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
@@ -212,6 +212,7 @@ export const links = [
     },
     {
       name: 'Shmac',
+      slug: 'Shmac',
       type: 'cannabis',
       image: '/Shmac.webp',
       strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
