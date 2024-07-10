@@ -1,19 +1,20 @@
-import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
-import "./globals.css";
-import Header from "./components/Header";
-import Menu from "./components/Menu";
-import Footer from "./components/Footer";
-import Modal from "./components/Modal";
+import type { Metadata } from 'next';
+import { Poppins } from 'next/font/google';
+import './globals.css';
+// import Header from "./components/Header";
+import Header from './components/Nav_liquid';
+import Menu from './components/Menu';
+import Footer from './components/Footer';
+import Modal from './components/Modal';
 
 const poppins = Poppins({
-   subsets: ["latin"], 
-   weight: ['200', '300', '400', '500', '600', '700', '900'] 
-  },);
+  subsets: ['latin'],
+  weight: ['200', '300', '400', '500', '600', '700', '900'],
+});
 
 export const metadata: Metadata = {
   title: "It's LITTO",
-  description: "Freshest greens",
+  description: 'Freshest greens',
 };
 
 export default function RootLayout({
@@ -23,9 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className}scroll-smooth`}>
+      <body className={`${poppins.className}`}>
         <Header />
-        <Modal />
+        {/* <Nav /> */}
         {children}
 
         <Footer />
