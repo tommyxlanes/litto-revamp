@@ -170,7 +170,7 @@ export default function Home() {
           <div className="col-span-3 overflow-hidden relative">
             <div className="absolute bottom-4 left-4 text-white">
               <h3 className="text-2xl font-bold">LITTO</h3>
-              <p className="text-xs">TAKE A HIT ANYWHERE AND ANYTIME</p>
+              <p className="text-xs">GIGGLY NIGHT EVERY NIGHT</p>
               <Link href="/cannabis">
                 <button
                   className="border border-1 border-white px-8 hover:bg-white hover:text-black transition duration-200 
