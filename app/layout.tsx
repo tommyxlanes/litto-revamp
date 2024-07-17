@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
+import { Poppins, Bebas_Neue } from 'next/font/google';
 import './globals.css';
 // import Header from "./components/Header";
 import Header from './components/Nav_liquid';
